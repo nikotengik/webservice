@@ -15,7 +15,7 @@ if ($err) {
 }
 // Call the SOAP method
 //$result = $client->call('ambilnama', array('name' => 'Unisbank'));
-$result = $client->call('insertdata', array('nim'=> '15.01.53.0041','nama'=> 'febriawan nico','prodi'=> 'TI-C1'));
+$result = $client->call('insertdata', array('nim'=> '15.01.53.0047','nama'=> 'febriawan nico','prodi'=> 'TI-C1'));
 // Check for a fault
 if ($client->fault) {
     echo '<h2>Fault</h2><pre>';
